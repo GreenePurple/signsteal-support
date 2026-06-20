@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SignSteal — Support</title>
+  <meta name="description" content="Support and help for SignSteal, the daily baseball guessing game.">
+  <style>
+    :root {
+      --bg: #14151E;
+      --card: #23263b;
+      --text: #F1ECE0;
+      --muted: #9aa3bd;
+      --green: #54A06A;
+      --gold: #D6A53C;
+      --hair: rgba(255, 255, 255, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 56px 22px 80px; }
+    header { text-align: center; margin-bottom: 40px; }
+    .badge {
+      display: inline-block; padding: 6px 14px; border-radius: 999px;
+      border: 1px solid var(--hair); color: var(--gold);
+      font-size: 12px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700;
+    }
+    h1 { font-size: 40px; letter-spacing: -1px; margin: 18px 0 6px; }
+    .tagline { color: var(--muted); font-size: 16px; margin: 0; }
+    .card {
+      background: var(--card); border: 1px solid var(--hair); border-radius: 18px;
+      padding: 22px 24px; margin-top: 18px;
+    }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    p { margin: 0 0 12px; color: #dfe2ee; }
+    a { color: var(--green); text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    .contact-email { font-size: 20px; }
+    details { border-top: 1px solid var(--hair); padding: 14px 0 4px; }
+    details:first-of-type { border-top: none; }
+    summary { cursor: pointer; font-weight: 600; color: var(--text); }
+    summary::-webkit-details-marker { color: var(--green); }
+    details p { margin-top: 10px; color: var(--muted); }
+    footer { margin-top: 40px; text-align: center; color: var(--muted); font-size: 12px; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">Support</span>
+      <h1>SignSteal</h1>
+      <p class="tagline">The daily baseball guessing game. Read the signs.</p>
+    </header>
+
+    <div class="card">
+      <h2>Get in touch</h2>
+      <p>Questions, bugs, or feedback? Email us and we'll get back to you as soon as we can.</p>
+      <p class="contact-email"><a href="mailto:thomasgreeneusa@gmail.com">thomasgreeneusa@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked</h2>
+
+      <details>
+        <summary>How do I play Who's in the Box?</summary>
+        <p>A new mystery big-league player steps into the box each day. You have 9 guesses. Every guess colors five clue columns — Team, Division, Position, Arm, and Debut — green (match), yellow (close), or red (miss). Read the colors to narrow down who it is.</p>
+      </details>
+
+      <details>
+        <summary>Does everyone get the same player?</summary>
+        <p>Yes. The daily mystery player is the same for every player on a given calendar day, so you can compare results with friends.</p>
+      </details>
+
+      <details>
+        <summary>What is Rundown?</summary>
+        <p>Rundown is a fast, timed survival mode. A mystery player reveals one clue at a time — call the right card before the clock runs out. Fewer clues mean bigger points. Stack combos and climb as many levels as you can.</p>
+      </details>
+
+      <details>
+        <summary>Is my streak saved?</summary>
+        <p>Your streak and game history are stored on your device. There's no account or login required to play.</p>
+      </details>
+
+      <details>
+        <summary>The rosters look out of date.</summary>
+        <p>SignSteal uses real big-league rosters that refresh through the season. If something looks off, email us the details and we'll take a look.</p>
+      </details>
+    </div>
+
+    <footer>
+      <p><a href="./privacy.html">Privacy Policy</a></p>
+      <p>SignSteal is an unofficial, fan-made app and is not affiliated with, endorsed by, or sponsored by Major League Baseball, the MLBPA, or any club. Team and player names are the property of their respective owners.</p>
+      <p>&copy; 2026 Thomas Greene</p>
+    </footer>
+  </div>
+</body>
+</html>
